@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Footer from 'components/includes/Footer';
+import Head from 'next/head';
 import styled from "styled-components";
 import Link from "next/link";
 
@@ -35,7 +34,7 @@ export default function Home() {
         <title>Baeyeonggi's Next Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <PortfolioPageList>
+      <PortfolioPageList>        
         <Intro><Link href="section/Intro" as="Intro">Intro</Link></Intro>
         <SelfInterview><Link href="section/SelfInterview" as="Self-Interview">Self-Interview</Link></SelfInterview>
         <Skills><Link href="section/Skills" as="Skills">Skills</Link></Skills>
